@@ -9,10 +9,10 @@ description: You can connect apps, data, and devices anywhere&mdash;on-premises 
   all of the time.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-logic-apps-01-connectors.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Schemas
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/schemas/master/_listings/azure-logic-apps/apis.md
 specificationVersion: "0.14"
 apis:
@@ -25,9 +25,9 @@ apis:
   tags: Schemas Integration Accounts
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schemas/master/_listings/azure-logic-apps/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftlogicintegrationaccountsintegrationaccountnameschemas-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schemas/master/_listings/azure-logic-apps/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-logicintegrationaccountsintegrationaccountnameschemas-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schemas/master/_listings/azure-logic-apps/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftlogicintegrationaccountsintegrationaccountnameschemas-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schemas/master/_listings/azure-logic-apps/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-logicintegrationaccountsintegrationaccountnameschemas-get-openapi.md
 - name: Azure Logic Apps API Schemas Get
   x-api-slug: azure-logic-apps-api
   description: Gets an integration account schema.
@@ -37,9 +37,9 @@ apis:
   tags: Schemas
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schemas/master/_listings/azure-logic-apps/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftlogicintegrationaccountsintegrationaccountnameschemasschemaname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schemas/master/_listings/azure-logic-apps/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-logicintegrationaccountsintegrationaccountnameschemasschemaname-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schemas/master/_listings/azure-logic-apps/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftlogicintegrationaccountsintegrationaccountnameschemasschemaname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schemas/master/_listings/azure-logic-apps/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-logicintegrationaccountsintegrationaccountnameschemasschemaname-get-openapi.md
 - name: Azure Logic Apps API Schemas Create Or Update
   x-api-slug: azure-logic-apps-api
   description: Creates or updates an integration account schema.
@@ -49,7 +49,7 @@ apis:
   tags: Schemas
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schemas/master/_listings/azure-logic-apps/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftlogicintegrationaccountsintegrationaccountnameschemasschemaname-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schemas/master/_listings/azure-logic-apps/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-logicintegrationaccountsintegrationaccountnameschemasschemaname-put-openapi.md
 - name: Azure Logic Apps API Schemas Delete
   x-api-slug: azure-logic-apps-api
   description: Deletes an integration account schema.
@@ -59,9 +59,9 @@ apis:
   tags: Schemas
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schemas/master/_listings/azure-logic-apps/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftlogicintegrationaccountsintegrationaccountnameschemasschemaname-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schemas/master/_listings/azure-logic-apps/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-logicintegrationaccountsintegrationaccountnameschemasschemaname-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schemas/master/_listings/azure-logic-apps/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftlogicintegrationaccountsintegrationaccountnameschemasschemaname-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schemas/master/_listings/azure-logic-apps/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-logicintegrationaccountsintegrationaccountnameschemasschemaname-delete-openapi.md
 - name: Azure Logic Apps API
   x-api-slug: azure-logic-apps-api
   description: You can connect apps, data, and devices anywhere&mdash;on-premises
