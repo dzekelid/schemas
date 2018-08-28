@@ -9,13 +9,13 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Schemas
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/schemas/master/_listings/ibm-watson/apis.md
 specificationVersion: "0.14"
 apis:
-- name: IBM Watson IoT Platform Query active schema definitions
-  x-api-slug: ibm-watson-iot-platform
+- name: IBM Watson IoT Platform HTTP REST API - Query active schema definitions
+  x-api-slug: schemas-get
   description: "Schemas are used to define the structure of Events, Device State and\nThing
     State in the Watson IoT Platform.\n\n  - For Events, they define the structure
     of the payload of the events\n    that are published to the platform by devices.\n\n
@@ -26,43 +26,47 @@ apis:
     schemas that are returned."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png
   humanURL: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/
-  baseURL: https:////api/v0002//schemas
-  tags: Internet of Things,Schemas
+  baseURL: https:////api/v0002
+  tags: Machine Learning, Machine Learning, AI, API LIfeyclessss, Stack Network, Stack,
+    Getting Started Example, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/schemas/master/_listings/ibm-watson/schemas-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/schemas/master/_listings/ibm-watson/schemas-get-openapi.md
-- name: IBM Watson IoT Platform Get active schema definition metadata
-  x-api-slug: ibm-watson-iot-platform
+- name: IBM Watson IoT Platform HTTP REST API - Get active schema definition metadata
+  x-api-slug: schemasschemaid-get
   description: |-
     Retrieves the metadata for the active schema definition with the
     specified id.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png
   humanURL: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/
-  baseURL: https:////api/v0002//schemas/{schemaId}
-  tags: Internet of Things,Schemas,SchemaId
+  baseURL: https:////api/v0002
+  tags: Machine Learning, Machine Learning, AI, API LIfeyclessss, Stack Network, Stack,
+    Getting Started Example, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/schemas/master/_listings/ibm-watson/schemasschemaid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/schemas/master/_listings/ibm-watson/schemasschemaid-get-openapi.md
-- name: IBM Watson IoT Platform Get the contents of the active schema definition file
-  x-api-slug: ibm-watson-iot-platform
+- name: IBM Watson IoT Platform HTTP REST API - Get the contents of the active schema
+    definition file
+  x-api-slug: schemasschemaidcontent-get
   description: |-
     Retrieves the content of the active schema definition file with the
     specified id.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png
   humanURL: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/
-  baseURL: https:////api/v0002//schemas/{schemaId}/content
-  tags: Internet of Things,Schemas,SchemaId,Content
+  baseURL: https:////api/v0002
+  tags: Machine Learning, Machine Learning, AI, API LIfeyclessss, Stack Network, Stack,
+    Getting Started Example, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/schemas/master/_listings/ibm-watson/schemasschemaidcontent-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/schemas/master/_listings/ibm-watson/schemasschemaidcontent-get-openapi.md
-- name: IBM Watson IoT Platform Query draft schema definitions
-  x-api-slug: ibm-watson-iot-platform
+- name: IBM Watson IoT Platform HTTP REST API - Query draft schema definitions
+  x-api-slug: draftschemas-get
   description: "Schemas are used to define the structure of Events, Device State and\nThing
     State in the Watson IoT Platform.\n\n  - For Events, they define the structure
     of the payload of the events\n    that are published to the platform by devices.\n\n
@@ -73,15 +77,16 @@ apis:
     of\nschemas that are returned."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png
   humanURL: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/
-  baseURL: https:////api/v0002//draft/schemas
-  tags: Internet of Things,Draft,Schemas
+  baseURL: https:////api/v0002
+  tags: Machine Learning, Machine Learning, AI, API LIfeyclessss, Stack Network, Stack,
+    Getting Started Example, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/schemas/master/_listings/ibm-watson/draftschemas-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/schemas/master/_listings/ibm-watson/draftschemas-get-openapi.md
-- name: IBM Watson IoT Platform Create a draft schema definition
-  x-api-slug: ibm-watson-iot-platform
+- name: IBM Watson IoT Platform HTTP REST API - Create a draft schema definition
+  x-api-slug: draftschemas-post
   description: "Creates a new draft schema definition for the organization in the
     Watson\nIoT Platform.\n\nThe schema definition file is passed to the Watson IoT
     Platform within a\nmultipart POST (multipart/form-data).  The body of the POST
@@ -101,29 +106,31 @@ apis:
     metadata that\ndescribes the schema definition."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png
   humanURL: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/
-  baseURL: https:////api/v0002//draft/schemas
-  tags: Internet of Things,Draft,Schemas
+  baseURL: https:////api/v0002
+  tags: Machine Learning, Machine Learning, AI, API LIfeyclessss, Stack Network, Stack,
+    Getting Started Example, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/schemas/master/_listings/ibm-watson/draftschemas-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/schemas/master/_listings/ibm-watson/draftschemas-post-openapi.md
-- name: IBM Watson IoT Platform Get draft schema definition metadata
-  x-api-slug: ibm-watson-iot-platform
+- name: IBM Watson IoT Platform HTTP REST API - Get draft schema definition metadata
+  x-api-slug: draftschemasschemaid-get
   description: |-
     Retrieves the metadata for the draft schema definition with the
     specified id.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png
   humanURL: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/
-  baseURL: https:////api/v0002//draft/schemas/{schemaId}
-  tags: Internet of Things,Draft,Schemas,SchemaId
+  baseURL: https:////api/v0002
+  tags: Machine Learning, Machine Learning, AI, API LIfeyclessss, Stack Network, Stack,
+    Getting Started Example, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/schemas/master/_listings/ibm-watson/draftschemasschemaid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/schemas/master/_listings/ibm-watson/draftschemasschemaid-get-openapi.md
-- name: IBM Watson IoT Platform Update draft schema definition metadata
-  x-api-slug: ibm-watson-iot-platform
+- name: IBM Watson IoT Platform HTTP REST API - Update draft schema definition metadata
+  x-api-slug: draftschemasschemaid-put
   description: "Updates the metadata for the draft schema definition with the specified\nid.
     The following properties can be updated:\n\n  - name\n  - description\n  \nNote
     that if the description field is omitted from the body of the\nupdate, then any
@@ -136,13 +143,14 @@ apis:
     as a result of a successful update."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png
   humanURL: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/
-  baseURL: https:////api/v0002//draft/schemas/{schemaId}
-  tags: Internet of Things,Draft,Schemas,SchemaId
+  baseURL: https:////api/v0002
+  tags: Machine Learning, Machine Learning, AI, API LIfeyclessss, Stack Network, Stack,
+    Getting Started Example, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/schemas/master/_listings/ibm-watson/draftschemasschemaid-put-openapi.md
-- name: IBM Watson IoT Platform Delete a draft schema definition
-  x-api-slug: ibm-watson-iot-platform
+- name: IBM Watson IoT Platform HTTP REST API - Delete a draft schema definition
+  x-api-slug: draftschemasschemaid-delete
   description: |-
     Deletes the draft schema definition with the specified id from the
     organization in the Watson IoT Platform.  Deleting the schema definition
@@ -153,25 +161,29 @@ apis:
     being referenced by an event type or logical interface.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png
   humanURL: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/
-  baseURL: https:////api/v0002//draft/schemas/{schemaId}
-  tags: Internet of Things,Draft,Schemas,SchemaId
+  baseURL: https:////api/v0002
+  tags: Machine Learning, Machine Learning, AI, API LIfeyclessss, Stack Network, Stack,
+    Getting Started Example, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/schemas/master/_listings/ibm-watson/draftschemasschemaid-delete-openapi.md
-- name: IBM Watson IoT Platform Get the contents of the draft schema definition file
-  x-api-slug: ibm-watson-iot-platform
+- name: IBM Watson IoT Platform HTTP REST API - Get the contents of the draft schema
+    definition file
+  x-api-slug: draftschemasschemaidcontent-get
   description: |-
     Retrieves the content of the draft schema definition file with the
     specified id.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png
   humanURL: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/
-  baseURL: https:////api/v0002//draft/schemas/{schemaId}/content
-  tags: Internet of Things,Draft,Schemas,SchemaId,Content
+  baseURL: https:////api/v0002
+  tags: Machine Learning, Machine Learning, AI, API LIfeyclessss, Stack Network, Stack,
+    Getting Started Example, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/schemas/master/_listings/ibm-watson/draftschemasschemaidcontent-get-openapi.md
-- name: IBM Watson IoT Platform Update the content of a draft schema definition file
-  x-api-slug: ibm-watson-iot-platform
+- name: IBM Watson IoT Platform HTTP REST API - Update the content of a draft schema
+    definition file
+  x-api-slug: draftschemasschemaidcontent-put
   description: |-
     Updates the content of a draft schema definition file with the specified
     id.
@@ -186,25 +198,17 @@ apis:
     content of the schema file.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png
   humanURL: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/
-  baseURL: https:////api/v0002//draft/schemas/{schemaId}/content
-  tags: Internet of Things,Draft,Schemas,SchemaId,Content
+  baseURL: https:////api/v0002
+  tags: Machine Learning, Machine Learning, AI, API LIfeyclessss, Stack Network, Stack,
+    Getting Started Example, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/schemas/master/_listings/ibm-watson/draftschemasschemaidcontent-put-openapi.md
-- name: IBM Watson IoT Platform
-  x-api-slug: ibm-watson-iot-platform
-  description: Meet IBM Watson, a cognitive system that enables a new partnership
-    between people and computers that enhances and scales human expertise. Watson
-    has been learning the language of professions and is trained by experts to work
-    across many different industries.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png
-  humanURL: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/
-  baseURL: https:////api/v0002
-  tags: Schemas
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schemas/master/_listings/ibm-watson/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://ibm.financial.crimes.insight.for.insurance.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://ibm.watson.stack.network
 - type: x-application-gallery
   url: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/gallery.html
 - type: x-blog

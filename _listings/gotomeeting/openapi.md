@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: GoToMeeting
 x-complete: 1
@@ -36,4 +35,3 @@ paths:
       tags:
       - Schemas
       - Users
----

@@ -17,63 +17,49 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Schemas
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/schemas/master/_listings/aws-database-migration-service/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS Database Migration Service API Describe Refresh Schemas Status
-  x-api-slug: aws-database-migration-service-api
+- name: AWS Database Migration Service API - Describe Refresh Schemas Status
+  x-api-slug: actiondescriberefreshschemasstatus-get
   description: Returns the status of the RefreshSchemas operation.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AWSDatabaseMigrationService.png
   humanURL: https://aws.amazon.com/dms/
-  baseURL: ://///?Action=DescribeRefreshSchemasStatus
-  tags: Schemas
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Databases, Migrations, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/schemas/master/_listings/aws-database-migration-service/actiondescriberefreshschemasstatus-get-openapi.md
-- name: AWS Database Migration Service API Describe Schemas
-  x-api-slug: aws-database-migration-service-api
+- name: AWS Database Migration Service API - Describe Schemas
+  x-api-slug: actiondescribeschemas-get
   description: Returns information about the schema for the specified endpoint.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AWSDatabaseMigrationService.png
   humanURL: https://aws.amazon.com/dms/
-  baseURL: ://///?Action=DescribeSchemas
-  tags: Schemas
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Databases, Migrations, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/schemas/master/_listings/aws-database-migration-service/actiondescribeschemas-get-openapi.md
-- name: AWS Database Migration Service API Refresh Schemas
-  x-api-slug: aws-database-migration-service-api
+- name: AWS Database Migration Service API - Refresh Schemas
+  x-api-slug: actionrefreshschemas-get
   description: Populates the schema for the specified endpoint.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AWSDatabaseMigrationService.png
   humanURL: https://aws.amazon.com/dms/
-  baseURL: ://///?Action=RefreshSchemas
-  tags: Schemas
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Databases, Migrations, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/schemas/master/_listings/aws-database-migration-service/actionrefreshschemas-get-openapi.md
-- name: AWS Database Migration Service API
-  x-api-slug: aws-database-migration-service-api
-  description: AWS Database Migration Service helps you migrate databases to AWS easily
-    and securely. The source database remains fully operational during the migration,
-    minimizing downtime to applications that rely on the database. The AWS Database
-    Migration Service can migrate your data to and from most widely used commercial
-    and open-source databases. The service supports homogenous migrations such as
-    Oracle to Oracle, as well as heterogeneous migrations between different database
-    platforms, such as Oracle to Amazon Aurora or Microsoft SQL Server to MySQL. It
-    also allows you to stream data to Amazon Redshift from any of the supported sources
-    including Amazon Aurora, PostgreSQL, MySQL, MariaDB, Oracle, SAP ASE and SQL Server,
-    enabling consolidation and easy analysis of data in the petabyte-scale data warehouse.
-    AWS Database Migration Service can also be used for continuous data replication
-    with high-availability.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AWSDatabaseMigrationService.png
-  humanURL: https://aws.amazon.com/dms/
-  baseURL: :///
-  tags: Schemas
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schemas/master/_listings/aws-database-migration-service/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://aws.data.pipeline.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.database.migration.service.stack.network
 - type: x-documentation
   url: http://docs.aws.amazon.com/dms/latest/APIReference/Welcome.html
 - type: x-faq

@@ -7,36 +7,31 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotome
 x-kinRank: "7"
 x-alexaRank: "7422"
 tags: Schemas
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/schemas/master/_listings/gotomeeting/apis.md
 specificationVersion: "0.14"
 apis:
-- name: SCIM Get User Schema
-  x-api-slug: scim
+- name: SCIM - Get User Schema
+  x-api-slug: schemasusers-get
   description: Queries the user schema. The user schema is defined in SCIM Core Schema
     (http://www.simplecloud.info/specs/draft-scim-core-schema-01.html#resource-schema).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotomeeting.jpg
   humanURL: https://citrixonline.com
-  baseURL: https://api.citrixonline.com//identity/v1//Schemas/Users
-  tags: Schemas,Users
+  baseURL: https://api.citrixonline.com//identity/v1
+  tags: Office, Meetings, Collaboration, Video Conferencing, Video Conferencing, SaaS,
+    Technology, Enterprise, API Provider, Meetings, Profiles, Conferences, Relative
+    Data, Service API, Networks
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/schemas/master/_listings/gotomeeting/schemasusers-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/schemas/master/_listings/gotomeeting/schemasusers-get-openapi.md
-- name: SCIM
-  x-api-slug: scim
-  description: Citrix enables business mobility through the secure delivery of apps
-    and data to any device on any network.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotomeeting.jpg
-  humanURL: https://citrixonline.com
-  baseURL: https://api.citrixonline.com//identity/v1
-  tags: Schemas
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schemas/master/_listings/gotomeeting/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://google.url.shortener.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://gotomeeting.stack.network
 - type: x-base
   url: https://api.citrixonline.com
 - type: x-blog
